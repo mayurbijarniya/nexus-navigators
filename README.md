@@ -13,8 +13,6 @@
 
 A frontend prototype for an AI-powered academic publishing platform designed to streamline research workflows. Built with React, TypeScript, and Tailwind CSS, this prototype demonstrates key features for literature reviews, citation formatting, plagiarism detection, and journal recommendations.
 
-**Timeline:** February 2025 – April 2025
-
 ## Key Features
 
 - **Research Search** - Advanced search interface for papers, authors, and journals

@@ -1,24 +1,69 @@
-# Nexus AI – AI-Powered Academic Publishing Platform
+# Nexus AI – Frontend Prototype
+> AI-Powered Academic Publishing Platform Interface
 
-**Timeline:** Feb 2025 – Apr 2025
+<div align="center">
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+</div>
 
 ## Overview
 
-Nexus AI is a MERN-based AI research assistant designed to streamline key academic publishing workflows, including literature reviews, citation formatting, and plagiarism checks. The platform integrates advanced AI features such as research gap detection and smart journal recommendations, informed by insights from over 15 academic interviews and detailed process mapping.
+A frontend prototype for an AI-powered academic publishing platform designed to streamline research workflows. Built with React, TypeScript, and Tailwind CSS, this prototype demonstrates key features for literature reviews, citation formatting, plagiarism detection, and journal recommendations.
 
-## Key Contributions
+**Timeline:** February 2025 – April 2025
 
-- Led full-stack development using Vite, React, TypeScript, Tailwind CSS, and shadcn-ui.
-- Defined a 4-quarter product roadmap with competitive analysis (Elicit, Consensus, Semantic Scholar).
-- Identified a unique market positioning focused on resume-integrated insights and personalized publishing support.
-- Conducted TAM/SAM/SOM sizing for Northeastern’s student market, identifying a serviceable segment of 6,210 users.
-- Applied user-centered design with research personas and feature prioritization based on Must-Have, Performance, and Delight models.
-- Guided development using Agile methodologies with sprint planning and stakeholder validation via JIRA.
+## Key Features
 
-## Development Setup
+- **Research Search** - Advanced search interface for papers, authors, and journals
+- **Writing Workspace** - Distraction-free environment with AI assistance
+- **Citation Management** - Automated formatting and reference tools
+- **Plagiarism Detection** - Similarity checking interface
+- **Journal Finder** - Smart journal recommendation system
+- **Research Analytics** - Progress tracking dashboard
+- **Responsive Design** - Mobile and desktop optimized
 
-```bash
-git clone https://github.com/mayurbijarniya/nexus-navigators.git
-cd nexus-navigators
-npm install
-npm run dev
+## Tech Stack
+
+- **React 18** with TypeScript
+- **Tailwind CSS** for styling
+- **shadcn/ui** component library
+- **Vite** for development
+- **React Router** for navigation
+- **Framer Motion** for animations
+
+## Getting Started
+
+1. **Clone & Install**
+   ```bash
+   git clone https://github.com/mayurbijarniya/nexus-ai.git
+   cd nexus-ai
+   npm install
+   ```
+
+2. **Run Development Server**
+   ```bash
+   npm run dev
+   ```
+
+3. **Open Browser**
+   ```
+   http://localhost:5173
+   ```
+
+## Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## Project Background
+
+This prototype was developed based on insights from 15+ academic interviews and competitive analysis of platforms like Elicit, Consensus, and Semantic Scholar. It demonstrates a user-centered approach to academic publishing workflow optimization.
+
+---
+
+**Note:** This is a frontend prototype for demonstration purposes. Backend integration and AI features are planned for future development phases.
